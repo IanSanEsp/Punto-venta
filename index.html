@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto de Venta - SimRacing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Punto de Venta - SimRacing Store ඞ</h1>
+    </header>
+
+    <!-- Filtros por categoría -->
+    <section class="filtros">
+        <label for="categoria">Categoría:</label>
+        <select id="categoria">
+            <option value="todas">Todas</option>
+            <option value="volantes">Volantes</option>
+            <option value="pedales">Pedales</option>
+            <option value="bases">Bases</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+        <button id="filtrar">Filtrar</button>
+    </section>
+
+    <!-- Tabla de productos -->
+    <section class="productos">
+        <h2>Productos disponibles</h2>
+        <table id="tablaProductos">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Producto</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Agregar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Contenido generado por JavaScript -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Carrito de compras -->
+    <section class="carrito">
+        <h2>Carrito</h2>
+        <table id="tablaCarrito">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Subtotal</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="total">
+            <h3>Total: $<span id="total">0.00</span></h3>
+            <button id="finalizarCompra">Finalizar Compra</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

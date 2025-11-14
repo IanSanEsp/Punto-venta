@@ -1,0 +1,80 @@
+/* --- Estilos generales --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e2f;
+    color: #00ffcc;
+    text-align: center;
+    padding: 1em;
+}
+
+h2 {
+    color: #007bff;
+}
+
+section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* --- Tabla de productos --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e8f0fe;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* --- Botones --- */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* --- Total --- */
+.total {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e1e2f;
+    color: #00ffcc;
+    margin-top: 40px;
+}
